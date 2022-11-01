@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+html{
+    font-size: 16px;
+}
+body{
+  background-image: url('../pics/bg-body.jpg');
+  height: 1200px;
+  background-size: cover;
+  margin-top: -20px;
+} 
+.container{
+    max-width: 1000px;
+    height: 1100px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background-image: url('../pics/bg-header.jpg');
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    color: white;
+    font-size: 6rem;
+    padding: 2rem 0 0 5rem;
+}
+.bal{
+    float: left;
+    background-color: #262626;
+    width: 25%;
+    height: 900px;
+}
+.bal::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.bal ul{
+    list-style-type: none;
+    padding: 3rem 2rem 0 3rem;
+}
+.bal ul li{
+    height: 40px;
+    border-bottom: 1px white dashed;
+    margin-bottom: 0.5rem;
+}
+.bal ul li a{
+   display: block;
+   height: 100%;
+   text-decoration: none;
+   color: white;
+   font-size: 1.2rem;
+}
+.jobb{
+    float: right;
+    width: 74.99999%;
+    height: 900px;
+    background-color: white;
+    padding: 2rem 1rem 2rem 2rem;
+}
+.jobb::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.jobb h2{
+    font-size: 3.3rem;
+    display: inline;
+    background-color: green;
+    color: white;
+    padding: 0 1rem 0rem 1rem;
+    line-height: 4rem;
+}
+.jobb p{
+    padding: 1rem 0 0 0;
+    font-size: 1.1rem;
+}
+#kep1{
+    float: right;
+    margin: 20px;
+}
+#kep2{
+    float: left;
+    margin: 1rem 1rem 1rem 0;
+    width: 200px;
+}
+.footer p{
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.footer .linkek{
+    float: right;
+}
+.footer .linkek a{
+    color: black;
+}
+.footer .linkek::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
