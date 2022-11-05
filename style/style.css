@@ -12,7 +12,7 @@ body{
 } 
 .container{
     max-width: 1000px;
-    height: 900px;
+    height: 1000px;
     min-width: 1000px;
     margin: 0 auto;
 }
@@ -87,6 +87,9 @@ body{
     margin: 1rem 1rem 1rem 0;
     width: 200px;
 }
+.footer{
+    display: inline;
+}
 .footer p{
     display: inline-block;
     margin-top: 0.5rem;
@@ -95,12 +98,13 @@ body{
 .footer .linkek{
     float: right;
 }
-.footer .linkek a{
-    color: black;
-}
 .footer .linkek::after {
     content: "";
     clear: both;
     display: table;
 }
+.footer .linkek a{
+    color: black;
+}
+
 
