@@ -71,8 +71,11 @@ body{
     display: inline;
     background-color: green;
     color: white;
-    padding: 0 1rem 0rem 1rem;
-    line-height: 4rem;
+    border: 6px solid green;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  /*   padding: 0 1rem 0rem 1rem; */
+    line-height: 4.6rem;
 }
 .jobb p{
     padding: 1rem 0 0 0;
